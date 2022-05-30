@@ -12,7 +12,7 @@ contract FlashLoanReceiverBase is IFlashLoanReceiver {
 
     ILendingPoolAddressesProvider public addressesProvider;
     
-    address public constant BNB_ADDRESS = 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE;
+    address public constant BNB_ADDRESS = 0x69EA1083df9211aa5E4613188001a92503b9E233;
 
     constructor(ILendingPoolAddressesProvider _provider) public {
         addressesProvider = _provider;
